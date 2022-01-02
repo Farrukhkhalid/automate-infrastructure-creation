@@ -14,7 +14,7 @@ jobs:
   
   create_infrasture:
     docker:
-      - image: amazon/cli
+      - image: amazon/aws-cli
     
     steps:
       - checkout
